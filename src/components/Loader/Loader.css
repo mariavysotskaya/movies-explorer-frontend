@@ -1,0 +1,10 @@
+.loader-btn {
+  width: 100%;
+  background: #2F2F2F;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  padding: 11px 60px 9px;
+}

@@ -1,0 +1,66 @@
+.page__form-name_type_profile {
+  margin: 74px auto 122px;
+}
+
+.profile__fld-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
+  border-bottom: 1px solid #424242;
+}
+
+.profile__fld-container:last-of-type {
+  border-bottom: none;
+}
+
+.profile__fld-heading {
+  max-width: 140px;
+  width: 100%;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  align-self: end;
+}
+
+.profile__input-fld {
+  font-family: 'Inter', Arial, sans-serif;
+  background-color: #202020;
+  border: none;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: right;
+  outline: none;
+  color: white;
+}
+
+.profile__logout-btn {
+  background-color: #202020;
+  color: #EE3465;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  margin-bottom: 70px;
+}
+
+@media screen and (max-width: 768px) {
+  .page__form-name_type_profile {
+    margin: 236px auto 96px;
+  }
+
+  .profile__logout-btn {
+    margin-bottom: 270px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+    .page__form-name_type_profile {
+      margin: 70px auto 80px;
+    }
+  
+    .profile__logout-btn {
+      margin-bottom: 40px;
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }

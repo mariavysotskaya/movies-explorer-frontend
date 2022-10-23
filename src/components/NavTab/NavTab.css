@@ -1,0 +1,44 @@
+.navtab__list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.navtab__item {
+  width: 96px;
+  margin-right: 10px;
+}
+
+.navtab__item:last-of-type {
+  margin-right: auto;
+}
+
+.navtab__btn {
+  padding: 0;
+  background: #303030;
+  border-radius: 10px;
+  color: white;
+  width: 100%;
+}
+
+.navtab__name {
+  padding: 0;
+  margin: 10px 12px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+@media screen and (max-width: 500px) {
+  .navtab__item {
+    width: 82px;
+    margin-right: 5px;
+  }
+
+  .navtab__name {
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
