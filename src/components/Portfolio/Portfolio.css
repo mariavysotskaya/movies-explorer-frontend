@@ -38,12 +38,15 @@
 
 .portfolio__link {
   display: flex;
-  align-self: center;
-  transition: opacity linear;
+  justify-content: space-between;
+  width: 100%;
+  cursor: pointer;
+  color: white;
 }
 
-.portfolio__link:hover {
-  opacity: 0.7;
+.portfolio__image {
+  max-width: 29px;
+  width: 100%;
 }
 
 @media screen and (max-width: 768px) {
@@ -55,8 +58,16 @@
     color: #A0A0A0;
   }
 
+  .portfolio__list li {
+    border-color: #E6E6E6;
+  }
+
   .portfolio__item {
     font-size: 28px;
+  }
+
+  .portfolio__image {
+    max-width: 27px;
   }
 }
 
@@ -73,5 +84,9 @@
   .portfolio__item {
     font-size: 18px;
     line-height: 28px;
+  }
+
+  .portfolio__image {
+    max-width: 18px;
   }
 }

@@ -43,7 +43,7 @@ function Header(props) {
   };
 
   return (
-    <div className="header">
+    <header className="header">
       <div className={`overlay ${overlayActiveClass}`}></div>
       <div className="header__body">
         <a className="header__link" href="/"><img className="logo header__logo" src={logo} alt="Логотип" /></a>
@@ -67,7 +67,7 @@ function Header(props) {
           </div>
         }
       </div>
-    </div>
+    </header>
   )
 }
 

@@ -28,7 +28,7 @@ export default function Main() {
   ]
 
   return (
-    <div className="main">
+    <section className="main-page">
       <Promo>
         <NavTab initialData={sections}/>
       </Promo>
@@ -36,6 +36,6 @@ export default function Main() {
       <Techs techsRef={techsRef}/>
       <AboutMe studentRef={studentRef}/>
       <Portfolio />
-    </div>
+    </section>
   )
 }

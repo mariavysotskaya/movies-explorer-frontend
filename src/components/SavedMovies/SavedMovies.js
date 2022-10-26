@@ -10,7 +10,7 @@ export default function SavedMovies(props) {
   }
 
   return (
-    <div className="movies-list">
+    <section className="movies-list">
       <div className="movies-list__search-wrapper">
         <SearchForm />
         <div className="movies-list__checkbox-wrapper">
@@ -28,6 +28,6 @@ export default function SavedMovies(props) {
           <Loader />
         </div>
       </div>
-    </div>
+    </section>
   )
 }

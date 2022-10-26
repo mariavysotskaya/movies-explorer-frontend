@@ -11,6 +11,11 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
+  box-sizing: border-box;
+}
+
+.search-form__input:focus {
+  border-bottom: 1px solid #4285F4;
 }
 
 .search-form__button {

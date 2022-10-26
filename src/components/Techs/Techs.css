@@ -33,12 +33,6 @@
   margin: auto;
 }
 
-@media screen and (max-width: 767px) {
-  .techs__list {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
 @media screen and (max-width: 768px) {
   .techs {
     padding-left: 50px;
@@ -60,9 +54,16 @@
     line-height: 15px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .techs__list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
   
 @media screen and (max-width: 500px) {
   .techs {
+    background-color: #202020;
     padding-left: 14px;
     padding-right: 14px;
     margin: 0 -14px;

@@ -10,12 +10,12 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className="App">
+      <div className="App">   
         <Switch>
           <Route path="/(signin|signup)">{authRoutes}</Route>
           <Route exact path="/notfound">
             <NotFoundPage />
-          </Route>
+          </Route>        
           <Route>{routes}</Route>
         </Switch>
       </div>
