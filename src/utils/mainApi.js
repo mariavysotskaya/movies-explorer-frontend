@@ -80,7 +80,7 @@ class MainApi {
   
   // http://localhost:5000/
   // https://api.movieget.nomoredomains.icu/
-  const mainApi = new MainApi('http://localhost:5000/', {
+  const mainApi = new MainApi('https://api.movieget.nomoredomains.icu/', {
     'Accept': 'application/json',
     'Content-Type': 'application/json; charset=utf-8',
     'Authorization': `Bearer ${localStorage.getItem('token')}`,

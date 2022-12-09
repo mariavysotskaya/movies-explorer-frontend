@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:5000'
+const BASE_URL = 'https://api.movieget.nomoredomains.icu'
 // http://localhost:5000
 // https://api.movieget.nomoredomains.icu
 
