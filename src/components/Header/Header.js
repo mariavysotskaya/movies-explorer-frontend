@@ -1,8 +1,8 @@
-import { useState } from 'react'
-import { Link, withRouter } from 'react-router-dom'
-import logo from '../../images/header/header-logo.svg'
-import Navigation from '../Navigation/Navigation'
-import './Header.css'
+import { useState } from 'react';
+import { Link, withRouter } from 'react-router-dom';
+import logo from '../../images/header/header-logo.svg';
+import Navigation from '../Navigation/Navigation';
+import './Header.css';
 
 function Header(props) {
   const initNavBar = [
@@ -29,7 +29,6 @@ function Header(props) {
   const navbarActiveClass = isActiveNavBar ? "header__navbar-container_active" : null;
   const burgerActiveClass = isActiveBurger ? "header__burger_active" : null;
   
-
   const toggleClass = () => {
     setActiveBurger(!isActiveBurger);
     setIsActiveNavBar(!isActiveNavBar);

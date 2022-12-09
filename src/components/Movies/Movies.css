@@ -11,28 +11,18 @@
 }
 
 .movies-list__checkbox-wrapper {
-  margin: 30px auto 0;
+  margin: 20px auto 0;
 }
 
-.movies-list__container {
-  padding: 70px 0 0;
-}
-
-.movies-list__loader-wrapper {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  max-width: 320px;
-  padding: 50px 0 80px;
+.movies-list__default-title {
+  margin: 25px auto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 @media screen and (max-width: 500px) {
-  .movies-list__container {
-    margin: 0 -4px;
-    padding-top: 40px;
-  }
-
-.movies-list__loader-wrapper {
-  max-width: 240px;
+  .movies-list__default-title {
+    font-size: 12px;
   }
 }

@@ -25,29 +25,35 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
-  margin: 135px 0 0;
+  margin: 0;
+}
+
+.form__save-btn_type_page:disabled {
+  background: #999999;
 }
 
 .form__save-btn_type_transparent {
   font-weight: 400;
   font-size: 13px;
   line-height: 16px;
-  margin: 210px 0 16px;
+  margin: 0 0 16px;
   background-color: #202020;
   max-width: 410px;
   width: 100%;
+}
+
+.form__save-btn_type_transparent:disabled {
+  color: #999999;
 }
 
 @media screen and (max-width: 500px) {
   .form__save-btn_type_page {
     font-size: 12px;
     line-height: 15px;
-    margin-top: 220px;
   }
 
   .form__save-btn_type_transparent {
     font-size: 12px;
     line-height: 15px;
-    margin-top: 380px;
   }
 }

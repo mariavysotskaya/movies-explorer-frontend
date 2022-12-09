@@ -1,16 +1,13 @@
-import { Route } from 'react-router-dom'
-import Register from '../components/Register/Register'
-import Login from '../components/Login/Login'
+import { Route, Redirect } from 'react-router-dom';
 
-export const useAuthRoutes = () => {
+const AuthRoutes = (props) => {
   return (
-    <>
-      <Route exact path="/signup">
-        <Register />
-      </Route>
-      <Route exact path="/signin">
-        <Login />
-      </Route>
-    </>
+    <Route>
+      {() =>
+        !props.loggedIn ? props.children : <Redirect to="/" />
+      }
+    </Route>
   )
 }
+
+export default AuthRoutes;
