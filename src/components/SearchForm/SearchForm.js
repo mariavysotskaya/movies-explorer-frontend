@@ -32,6 +32,10 @@ export default function SearchForm(props) {
     props.onSubmit(searchForm.values["search"]);
   }
 
+  const handleSlide = () => {
+    props.onClick(searchForm.values["search"], props.sliderOn);
+  }
+
   return (
     <div className="movies-list__search-wrapper">
       <form className="search-form" name="search-form" onSubmit={handleSubmit} noValidate>
@@ -50,7 +54,7 @@ export default function SearchForm(props) {
       </form>
       <span className="search-form__error">{message}</span>
       <div className="movies-list__checkbox-wrapper">
-        <FilterCheckbox onClick={props.onClick} sliderOn={props.sliderOn}/>
+        <FilterCheckbox onClick={handleSlide} sliderOn={props.sliderOn}/>
       </div>
     </div>
   )

@@ -26,8 +26,9 @@ export default function SavedMovies(props) {
     setSliderOn(sliderOn);
   };
 
-  function handleSlider() {
-    setSliderOn(!sliderOn);
+  function handleSlider(value, slider) {
+    setSliderOn(!slider);
+    setSearchText(value);
   };
 
   return (
