@@ -132,7 +132,13 @@ function App() {
 
   function handleSignOut() {
     localStorage.removeItem('token');
+    localStorage.removeItem('searchQuery');
+    localStorage.removeItem('sliderOn');
+    localStorage.removeItem('beatMovies');
     setIsLoggedIn(false);
+    setValue(null);
+    setSliderOn(false);
+    setBeatMovies([]);
     history.push('/');
   }
 
