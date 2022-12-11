@@ -35,6 +35,29 @@
   line-height: 12px;
   color: #EE3465;
   margin: 6px 0 18px;
+  min-height: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.page__form-success {
+  color: #3DDC84;
+}
+
+.page__form-error_type_profile {
+  margin: 0;
+  text-align: right;
+}
+
+.page__form-error_type_page {
+  margin: 120px 0 10px;
+  text-align: center;
+}
+
+.page__form-error_type_profile-submit {
+  margin: 200px 0 10px;
+  text-align: center;
 }
 
 .page__form-input {
@@ -86,6 +109,14 @@
 
   .page__form-name {
     margin: 50px auto 80px;
+  }
+
+  .page__form-error_type_page {
+    margin-top: 200px;
+  }
+
+  .page__form-error_type_profile-submit {
+    margin-top: 365px;
   }
 
   .page__text {
